@@ -1,0 +1,104 @@
+
+.footer{
+ height: 10vh;
+display: flex;
+flex-direction: row;
+gap: 2px;
+}
+ 
+.bloco1{
+  background-color: black;
+  width: 200px;
+  height: 100px;
+}
+ .numero1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  padding: 9px;
+ }
+.texto1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 800;  
+  color: white;
+  text-align: center;
+  padding: 9px;
+}
+.descricao1{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 400px;
+  text-align: center;
+  padding: 9px;
+}
+
+.bloco2{
+  background-color: black;
+  width: 200px;
+  height: 100px;
+ 
+ } 
+
+.numero2{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  padding: 9px;
+
+}
+.texto2{
+  font-size: 12px;
+  font-weight: 800;  
+  color: white;
+  text-align: center;
+  padding: 9px;
+}
+.descricao2{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 400px;
+  text-align: center;
+  padding: 9px;
+
+}
+ .bloco3{
+  background-color: black;
+  width: 200px;
+  height: 100px;
+ }
+ .numero3{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  padding: 9px;
+ }
+ .texto3{
+  font-size: 12px;
+  font-weight: 800;  
+  color: white;
+  text-align: center;
+  padding: 9px;
+
+ }
+ .descricao3{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 400px;
+  text-align: center;
+  padding: 9px;
+ }
+ .creditos{
+  font-size: 12px;
+ margin-left: 300px;
+ margin-top: 74px;
+ }

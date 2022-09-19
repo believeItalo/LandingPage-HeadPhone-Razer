@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*body{
+    
+}
+*/
+body{
+    height: 100vh;
+    background-color: #76045D;
+    display: grid; /*organiza os elementos em linhas(horizontais) difereten do flex que organiza em colunas*/
+    grid-template-areas: 
+    "header" 
+    "main "
+    "footer";
+    grid-template-rows: 100px 1fr 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    grid-area: header;
+  
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+
+}
+
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+    "description product social" ;
+    grid-template-columns: 380px 1fr 48px;
+    padding: 0 100px;
+}
+
+footer{
+    height: 1px;
+}
+

@@ -1,0 +1,46 @@
+.product{
+     grid-area: product;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.product__price{
+     background-color: white;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 32px;
+     font-weight: 700;
+     color: #76045D;
+     margin-top: -50px;
+     
+
+
+}
+
+.product__img{
+     width: 715px;
+     height: 400px;
+    padding-left: 50px;
+    
+     
+}
+.headphone{
+     
+     width: 600px;
+     height: 400px;
+}
+.product__navegation-container{
+     display: flex;
+     flex-direction: row;
+     background-color: white;
+     width: 100px;
+     height: 50px;
+     font-size: 2rem;
+     gap: 30px;
+     align-items: center;
+     justify-content: center;
+     font-weight: 800;
+}
+

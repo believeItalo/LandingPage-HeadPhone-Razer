@@ -1,0 +1,38 @@
+.product{
+     grid-area: product;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.product__price{
+     background-color: white;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 32px;
+     font-weight: 700;
+     color: #76045D;
+  
+     
+
+
+}
+.product__img{
+     width: 715px;
+     height: 479.97px; 
+}
+
+.product__navegation-container{
+     display: flex;
+     flex-direction: row;
+     background-color: white;
+     width: 100px;
+     height: 50px;
+     font-size: 2rem;
+     gap: 30px;
+     align-items: center;
+     justify-content: center;
+     font-weight: 800;
+}
+

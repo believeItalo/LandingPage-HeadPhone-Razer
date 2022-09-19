@@ -1,0 +1,52 @@
+.social{
+    grid-area: social;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+    
+}
+.logo__facebook:hover{
+    background-color: white;
+}
+.logo__facebook{
+   width: 50px;
+   height: 50px;
+border: 2px solid white;
+border-radius: 50%;
+
+}
+
+.logo__twitter:hover{
+    background-color:white;
+}
+
+.logo__twitter{
+
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+border-radius: 50%;
+}
+.logo__youtube:hover{
+    background-color: white;
+}
+.logo__youtube{
+ 
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+border-radius: 50%;
+
+
+}
+.logo__instagram:hover{
+    background-color: white;
+}
+.logo__instagram{
+
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+border-radius: 50%;
+}
